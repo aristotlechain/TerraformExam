@@ -29,7 +29,7 @@ private_ip_address_allocation = "Dynamic"
 }
 
 resource "azurerm_linux_virtual_machine" "vm" {
-name = "terraform-vm"
+name = "terraform-vm-final-exam-savvy"
 resource_group_name = azurerm_resource_group.rg.name
 location = azurerm_resource_group.rg.location
 size = "Standard_B1s"
